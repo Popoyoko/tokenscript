@@ -28,5 +28,5 @@ jobs:
     - name: 🔗 Install dependencies
       run: bun i
 
-    - name: Run TokenScript
-      run: node convertTokens.ts
+    - name: 🎨 Run TokenScript
+      run: bun run convert-token
