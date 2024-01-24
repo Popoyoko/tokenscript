@@ -8,7 +8,7 @@ on:
       - 'token.json'
 
 jobs:
-  run-token-script:
+  Token-script:
     runs-on: ubuntu-latest
 
     steps:
