@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "@types/node": "^20.11.0"
+  },
+  "scripts": {
+    "convertToken": "node convertToken.ts"
   }
 }
