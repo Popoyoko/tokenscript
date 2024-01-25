@@ -2,13 +2,13 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 var fs = require("fs");
 function filterColors(data) {
-    if (data && typeof data === 'object') {
+    if (data && typeof data === 'object') { //data est-il un object
         if (data.type === 'color') {
-            // If the type is color, return an empty object
+            // si le type est color = objet vide
             return {};
         }
         else {
-            // Recursively filter color types from nested objects
+            // applique la fonction de manière récursive, permet de traiter chaque niveau de l'objet
             var result = {};
             for (var key in data) {
                 result[key] = filterColors(data[key]);
@@ -17,16 +17,16 @@ function filterColors(data) {
         }
     }
     else {
-        // For non-object values, return the value as is
+        // si data n'est pas un objet, renvoie la valeur de data
         return data;
     }
 }
-// Read the token.json file
+// Lit token.json et le parse en un objet JS
 var tokenFilePath = 'token.json';
 var tokenData = JSON.parse(fs.readFileSync(tokenFilePath, 'utf-8'));
-// Filter out color types
+// Appel de la fonction 
 var filteredTokenData = filterColors(tokenData);
-// Write the filtered data to variables.json
+// Écrit le nouvel objet filtré variables.json
 var variablesFilePath = 'variables.json';
 fs.writeFileSync(variablesFilePath, JSON.stringify(filteredTokenData, null, 2));
 console.log('Script executed successfully!');
