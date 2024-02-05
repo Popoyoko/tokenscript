@@ -38,4 +38,4 @@ jobs:
        github_token: ${{ secrets.GITHUB_TOKEN }}
        publish_dir: ./variables
        publish_branch: variables
-       publish_files: variables.json
+       publish_files: token.json
