@@ -3,6 +3,6 @@
     "@types/node": "^20.11.0"
   },
   "scripts": {
-    "convertTokens": "tsc convertTokens.ts && node convertTokens.js"
+    "convertTokens": "bun convertTokens.ts"
   }
 }
