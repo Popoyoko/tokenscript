@@ -31,13 +31,6 @@ jobs:
     - name: 🎨 Run TokenScript
       run: bun run convertTokens
 
-    - name: 🚀 Create and Push Variables Branch
-      run: |
-        git checkout -b variables
-        git add variables.json
-        git commit -m "Add variables.json"
-        git push origin variables
-
     - name: 🚀 Deploy Variables
       uses: peaceiris/actions-gh-pages@v3
       if: ${{ github.ref == 'refs/heads/master' }}
