@@ -39,3 +39,12 @@ jobs:
        publish_dir: ./variables
        publish_branch: variables
        publish_files: token.json
+
+    - name: 🚀 Deploy Style 
+      if: ${{ github.ref == 'refs/heads/master' }}
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+       github_token: ${{ secrets.GITHUB_TOKEN }}
+       publish_dir: ./style
+       publish_branch: style
+       publish_files: token.json
