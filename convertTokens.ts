@@ -27,7 +27,7 @@ const tokenData = JSON.parse(fs.readFileSync(tokenFilePath, 'utf-8'));
 const filteredTokenData = filterColors(tokenData);
 
 // Écrit le nouvel objet filtré variables.json
-const variablesFilePath = 'variables.json';
+const variablesFilePath = 'variables/token.json';
 fs.writeFileSync(variablesFilePath, JSON.stringify(filteredTokenData, null, 2));
 
 console.log('Script executed successfully!');
