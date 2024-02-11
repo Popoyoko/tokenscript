@@ -43,6 +43,7 @@ const variablesFilePath = 'variables/tokens.json';
 fs.writeFileSync(variablesFilePath, JSON.stringify(filteredTokenData, null, 2));
 
 // Copier le fichier token.json dans styles/token.json
-fs.copyFileSync(tokenFilePath, variablesFilePath);
+const stylesFilePath = 'styles/tokens.json';
+fs.copyFileSync(tokenFilePath, stylesFilePath);
 
 console.log('Script executed successfully!');

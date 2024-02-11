@@ -3,22 +3,27 @@ name: TokenScript Workflow
 on:
   push:
     branches:
-      - master
-    paths:
-      - 'token.json'
+      - main
 
 jobs:
   Token-script:
     runs-on: ubuntu-latest
 
+    env:
+      GITHUB_ACTOR: ${{ github.actor }}
+      GITHUB_REPOSITORY: ${{ github.repository }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
     steps:
     - name: 📥 Checkout repository
-      uses: actions/checkout@v2
-
-    - name: Setup Node.js
-      uses: actions/setup-node@v2
+      uses: actions/checkout@v4
       with:
-        node-version: '14'
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name : 🔐 Configre github credentials
+      run: |
+        git config user.name "${GITHUB_ACTOR}"
+        git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
         
     - name: 🐰 Set up bun
       uses: oven-sh/setup-bun@v1
@@ -29,21 +34,16 @@ jobs:
       run: bun i
 
     - name: 🎨 Run TokenScript
-      run: bun run convertTokens
+      run: bun run build
 
-    - name: 🚀 Deploy Variables
-      uses: peaceiris/actions-gh-pages@v3
-      if: ${{ github.ref == 'refs/heads/master' }}
-      with:
-       github_token: ${{ secrets.GITHUB_TOKEN }}
-       publish_dir: ./variables
-       publish_branch: variables
-       publish_files: token.json
+    - name: 🏗️ Prepare publications
+      run: |
+        chmod +x publish-on-branch.sh
 
-    - name: 🚀 Deploy Style 
-      if: ${{ github.ref == 'refs/heads/master' }}
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-       github_token: ${{ secrets.GITHUB_TOKEN }}
-       publish_branch: style
-       publish_files: token.json
+    - name: 🚀 Publish Variables
+      run: |
+        ./publish-on-branch.sh variables
+
+    - name: 🚀 Publish Style
+      run: |
+        ./publish-on-branch.sh styles
