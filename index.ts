@@ -1,6 +1,7 @@
 import * as fs from 'fs';
+import { AnyTokenSet } from '@tokens-studio/types';
 
-function filterColors(data: any): any {
+const filterColors = (data: any): any => {
   if (data && typeof data === 'object') { //data est-il un object
     if (data.type === 'color') {
       // si le type est color = objet vide
@@ -19,15 +20,29 @@ function filterColors(data: any): any {
   }
 }
 
+const variablesFolderPath = 'variables';
+if (!fs.existsSync(variablesFolderPath)) {
+  fs.mkdirSync(variablesFolderPath);
+}
+
+const stylesFolderPath = 'styles';
+if (!fs.existsSync(stylesFolderPath)) {
+  fs.mkdirSync(stylesFolderPath);
+}
+
 // Lit token.json et le parse en un objet JS
-const tokenFilePath = 'token.json';
-const tokenData = JSON.parse(fs.readFileSync(tokenFilePath, 'utf-8'));
+const tokenFilePath = 'tokens.json';
+const tokenData: AnyTokenSet = JSON.parse(fs.readFileSync(tokenFilePath, 'utf-8'));
 
 // Appel de la fonction 
 const filteredTokenData = filterColors(tokenData);
 
+
 // Écrit le nouvel objet filtré variables.json
-const variablesFilePath = 'variables/token.json';
+const variablesFilePath = 'variables/tokens.json';
 fs.writeFileSync(variablesFilePath, JSON.stringify(filteredTokenData, null, 2));
+
+// Copier le fichier token.json dans styles/token.json
+fs.copyFileSync(tokenFilePath, variablesFilePath);
 
 console.log('Script executed successfully!');

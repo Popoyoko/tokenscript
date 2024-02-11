@@ -1,8 +1,9 @@
 {
   "dependencies": {
+    "@tokens-studio/types": "^0.4.0",
     "@types/node": "^20.11.0"
   },
   "scripts": {
-    "convertTokens": "bun convertTokens.ts"
+    "build": "bun index.ts"
   }
 }
