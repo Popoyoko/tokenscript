@@ -1,9 +1,12 @@
 {
   "dependencies": {
+    "@tokens-studio/sd-transforms": "^0.14.2",
     "@tokens-studio/types": "^0.4.0",
-    "@types/node": "^20.11.0"
+    "@types/node": "^20.11.0",
+    "style-dictionary": "^3.9.2"
   },
   "scripts": {
-    "build": "bun index.ts"
+    "build": "bun index.ts",
+    "build:tokens": "bun build-tokens.cjs"
   }
 }

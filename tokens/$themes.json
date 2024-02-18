@@ -1,0 +1,86 @@
+[
+  {
+    "id": "4f1fa20a4992b95a1e99502a89f855318a4cb256",
+    "name": "Popoyoko",
+    "$figmaStyleReferences": {
+      "BG.Default.Initial": "S:a1d4c3f88dd54fa682b48e8f69ba875c9e998602,",
+      "BG.Default.Hover": "S:08a61102b0e419b35866bf1705a57989cab4632a,",
+      "FG.Default.Initial": "S:c5e4a76f4c73c4c51c9f6b1a4999bebe08c87717,",
+      "BG.Default.Disable": "S:08a950737b0231d0b11a9c0ae44b4b01b2bf8362,",
+      "FG.Default.Hover": "S:d37c3edf382b4c304fd4657c4f703f55add4714f,",
+      "Display.Large": "S:053f5242dd4204fa688cc54d6b5420d8848e9d02,",
+      "Display.Medium": "S:a6e7a9987086fb36ba1d7862800931e66e189e0e,",
+      "Display.Small": "S:af0182f1f24a80bd0132597107691949cdad9604,",
+      "Title.Large": "S:a23f5d2e5703e021be293e627d47c96c2f0e608c,",
+      "Title.Medium": "S:8c0842984d28797459b3548930ab8ae8f3f8911c,",
+      "Title.Small": "S:f8d9633e8737ff267dc6b0f5b8caac3711a226b2,",
+      "Label.Large": "S:16c16520c3bb5b8d69d1a10c3c7da4262977a462,",
+      "Label.Medium": "S:cbd50ac57ea53bc9c519a4d892eace693177d307,",
+      "Label.Small": "S:15a5a0bac8231d2b95b3bf98c1ecdbf7ac7da87d,",
+      "Body.Large": "S:f7e2df688d2a132998e4d6578f0690f8b992d919,",
+      "Body.Medium": "S:88daf8c59413c86f6c6a2780f981614b089b2704,",
+      "Body.Small": "S:fd726aa63564404a6b3948b7ecdf66bad38d5668,",
+      "Display.Default": "S:3c882a15869c068d6d348fab6581c2153426e354,",
+      "Title.Default": "S:fd81f5fa2cca4ad7acd01ae90f0468201be895b0,",
+      "Label.Default": "S:f5e2997884532981359f205fc510f670ee5230ef,",
+      "Body.Default": "S:db19510c7c4f07864309990218c4f077a090235d,",
+      "Subtitle.Default": "S:ccedc2fffd83a4f6c9fe5ab72a36585cb258186b,",
+      "Placeholder.Default": "S:9d5fb1c31a1c75c41292c0ed4b97fa870e63b9e2,",
+      "Mention.Default": "S:a7e80cc7f2f33d03efffcc6b90d60c09f640ebfa,",
+      "BG.Default.Focus": "S:871600348b78a0b30ed05e8ef0da83781803caef,"
+    },
+    "selectedTokenSets": {
+      "Branding/Popoyoko": "source",
+      "Semantics/Popoyoko": "source",
+      "Semantic": "enabled",
+      "Tools": "source"
+    },
+    "group": "Brand"
+  },
+  {
+    "id": "30c4658626f7ea3d3f4a9b8de49681a59f017b62",
+    "name": "Practolib",
+    "$figmaStyleReferences": {
+      "FG.Default.Hover": "S:62eb5fcf17794e2c137ff7414430648f94aec809,",
+      "Display.Large": "S:3c681ea2ef92cfb9553248547874e0d1c2cdd8fb,",
+      "Display.Medium": "S:2524f1f18e163572b2e8e4b368d6dba789bea250,",
+      "Display.Small": "S:c7b9f58cb3bb9e68e0fd3cb0dc5008503ca730ee,",
+      "Title.Large": "S:67058fd0db7e096a6d23e24f0f3cd3778391aa2a,",
+      "Title.Medium": "S:dfb60b3caf89514ade45db583acca208892552a0,",
+      "Title.Small": "S:a6ce3c31dd7b5cb3f21be67af4497d4bc7e0a5ec,",
+      "Label.Large": "S:09510709f6a07db81ae4c0fe40f5744ed105ee26,",
+      "Label.Medium": "S:5c07aadb7b829f2892387c7683577da5e7735c52,",
+      "Label.Small": "S:4015a2cb1ce3593ba02213f387d8437ff1a4fe54,",
+      "Body.Large": "S:87ca4215ed0518a3f3358f2aa190abe5c59fbbbb,",
+      "Body.Medium": "S:c4132da5b6a8018a57c60bc56b1c0bca5f7ebe05,",
+      "Body.Small": "S:919c3c02d6175f23ae4a15c83bcf57666eab6f17,",
+      "Display.Default": "S:7a378b1d273d802f36032ed9a51c231eb755dae7,",
+      "Title.Default": "S:7cfa9433c56f2aa9188bc186739b97e36df7fbb3,",
+      "Label.Default": "S:e90842df26a19839dd105eec0ed069302c4deb19,",
+      "Body.Default": "S:429089252ba8cd2068d24229cfe5788b4a7f9500,",
+      "Subtitle.Default": "S:070ae1497c78631d4a84f46145e36753bbac8f47,",
+      "Placeholder.Default": "S:95c73d241bc36f2fa63ff40f9f5cd7203910dd0d,",
+      "Mention.Default": "S:e3ca148d2020d1530aceb6c23b1e4ba229d96523,",
+      "BG.Default.Focus": "S:0cb29475139317258abc745a4d67aa71f970eba1,"
+    },
+    "selectedTokenSets": {
+      "Tools": "source",
+      "Branding/Practolib": "source",
+      "Semantics/Practolib": "source",
+      "Semantic": "enabled"
+    },
+    "group": "Brand"
+  },
+  {
+    "id": "af875e7b73dba496a54ae134f8f73d37a5ea719a",
+    "name": "BrandNameTest",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "Tools": "source",
+      "Branding/BrandNameTest": "source",
+      "Semantics/BrandNameTest": "source",
+      "Semantic": "enabled"
+    },
+    "group": "Brand"
+  }
+]
