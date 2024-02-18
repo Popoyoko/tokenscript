@@ -1,0 +1,13 @@
+{
+  "tokenSetOrder": [
+    "Tools",
+    "Branding/Popoyoko",
+    "Branding/Practolib",
+    "Branding/BrandNameTest",
+    "Semantics/Popoyoko",
+    "Semantics/Practolib",
+    "Semantics/BrandNameTest",
+    "Semantic",
+    "Component"
+  ]
+}

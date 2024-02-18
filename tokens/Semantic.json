@@ -1,0 +1,156 @@
+{
+  "BG": {
+    "Default": {
+      "Initial": {
+        "value": "{Semantics.BG.Default.Initial}",
+        "type": "color"
+      },
+      "Hover": {
+        "value": "{Semantics.BG.Default.Hover}",
+        "type": "color"
+      },
+      "Focus": {
+        "value": "{Semantics.BG.Default.Focus}",
+        "type": "color"
+      },
+      "Disable": {
+        "value": "{Semantics.BG.Default.Disable}",
+        "type": "color"
+      }
+    }
+  },
+  "FG": {
+    "Default": {
+      "Initial": {
+        "value": "{Semantics.FG.Default.Initial}",
+        "type": "color"
+      },
+      "Hover": {
+        "value": "{Semantics.FG.Default.Hover}",
+        "type": "color"
+      }
+    }
+  },
+  "Display": {
+    "Large": {
+      "value": "{Semantics.Display.Large}",
+      "type": "typography"
+    },
+    "Medium": {
+      "value": "{Semantics.Display.Medium}",
+      "type": "typography"
+    },
+    "Small": {
+      "value": "{Semantics.Display.Small}",
+      "type": "typography"
+    },
+    "Default": {
+      "value": "{Semantics.Display.Default}",
+      "type": "typography"
+    }
+  },
+  "Title": {
+    "Large": {
+      "value": "{Semantics.Title.Large}",
+      "type": "typography"
+    },
+    "Medium": {
+      "value": "{Semantics.Title.Medium}",
+      "type": "typography"
+    },
+    "Small": {
+      "value": "{Semantics.Title.Small}",
+      "type": "typography"
+    },
+    "Default": {
+      "value": "{Semantics.Title.Default}",
+      "type": "typography"
+    }
+  },
+  "Label": {
+    "Large": {
+      "value": "{Semantics.Label.Large}",
+      "type": "typography"
+    },
+    "Medium": {
+      "value": "{Semantics.Label.Medium}",
+      "type": "typography"
+    },
+    "Small": {
+      "value": "{Semantics.Label.Small}",
+      "type": "typography"
+    },
+    "Default": {
+      "value": "{Semantics.Label.Default}",
+      "type": "typography"
+    }
+  },
+  "Body": {
+    "Large": {
+      "value": "{Semantics.Body.Large}",
+      "type": "typography"
+    },
+    "Medium": {
+      "value": "{Semantics.Body.Medium}",
+      "type": "typography"
+    },
+    "Small": {
+      "value": "{Semantics.Body.Small}",
+      "type": "typography"
+    },
+    "Default": {
+      "value": "{Semantics.Body.Default}",
+      "type": "typography"
+    }
+  },
+  "Subtitle": {
+    "Default": {
+      "value": "{Semantics.Subtitle.Default}",
+      "type": "typography"
+    }
+  },
+  "Placeholder": {
+    "Default": {
+      "value": "{Semantics.Placeholder.Default}",
+      "type": "typography"
+    }
+  },
+  "Mention": {
+    "Default": {
+      "value": "{Semantics.Mention.Default}",
+      "type": "typography"
+    }
+  },
+  "fontFamily": {
+    "value": "{Semantics.fontFamily}",
+    "type": "fontFamilies"
+  },
+  "XXS": {
+    "value": "{Semantics.XXS}",
+    "type": "borderRadius"
+  },
+  "XS": {
+    "value": "{Semantics.XS}",
+    "type": "borderRadius"
+  },
+  "S": {
+    "value": "{Semantics.S}",
+    "type": "borderRadius"
+  },
+  "M": {
+    "value": "{Semantics.M}",
+    "type": "borderRadius"
+  },
+  "L": {
+    "value": "{Semantics.L}",
+    "type": "borderRadius"
+  },
+  "XL": {
+    "value": "{Semantics.XL}",
+    "type": "borderRadius"
+  },
+  "XXL": {
+    "value": "{Semantics.XXL}",
+    "type": "borderRadius"
+  }
+}
