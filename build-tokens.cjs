@@ -1,4 +1,5 @@
-const tokenPath = "tokens"
+// const tokenPath = "tokens"
+const tokenPath = "tokenstest"
 
 const StyleDictionary = require("style-dictionary");
 const {
@@ -15,7 +16,8 @@ StyleDictionary.registerTransformGroup({
 });
 
 // filters only tokens originating from core.json
-const coreFilter = (token) => token.filePath.endsWith("core.json");
+// const coreFilter = (token) => token.filePath.endsWith("core.json");
+const coreFilter = () => true;
 
 // filters tokens by attributes.category (first key in the token hierachy, see attributes/cti transform for more info)
 // must match per component name, in this repository we currently only have "button"
