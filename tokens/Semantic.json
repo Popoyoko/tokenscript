@@ -146,11 +146,11 @@
     "type": "fontFamilies"
   },
   "XXS": {
-    "value": "{borderRadius.2}",
+    "value": "{Semantics.XXS}",
     "type": "borderRadius"
   },
   "XS": {
-    "value": "{borderRadius.4}",
+    "value": "{Semantics.XS}",
     "type": "borderRadius"
   },
   "S": {
@@ -178,19 +178,19 @@
     "type": "borderRadius"
   },
   "Small": {
-    "value": "{sizing.16}",
+    "value": "{Semantics.Small}",
     "type": "sizing"
   },
   "Medium": {
-    "value": "{sizing.24}",
+    "value": "{Semantics.Medium}",
     "type": "sizing"
   },
   "Large": {
-    "value": "{sizing.32}",
+    "value": "{Semantics.Large}",
     "type": "sizing"
   },
   "XLarge": {
-    "value": "{sizing.48}",
+    "value": "{Semantics.XLarge}",
     "type": "sizing"
   }
 }
