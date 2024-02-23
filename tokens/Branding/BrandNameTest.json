@@ -1,47 +1,49 @@
 {
-  "11": {
-    "value": "11",
-    "type": "fontSizes"
-  },
-  "12": {
-    "value": "12",
-    "type": "fontSizes"
-  },
-  "14": {
-    "value": "14",
-    "type": "fontSizes"
-  },
-  "16": {
-    "value": "16",
-    "type": "fontSizes"
-  },
-  "20": {
-    "value": "20",
-    "type": "fontSizes"
-  },
-  "22": {
-    "value": "22",
-    "type": "fontSizes"
-  },
-  "24": {
-    "value": "24",
-    "type": "fontSizes"
-  },
-  "32": {
-    "value": "32",
-    "type": "fontSizes"
-  },
-  "36": {
-    "value": "36",
-    "type": "fontSizes"
-  },
-  "45": {
-    "value": "45",
-    "type": "fontSizes"
-  },
-  "57": {
-    "value": "57",
-    "type": "fontSizes"
+  "fontSize": {
+    "11": {
+      "value": "11",
+      "type": "fontSizes"
+    },
+    "12": {
+      "value": "12",
+      "type": "fontSizes"
+    },
+    "14": {
+      "value": "14",
+      "type": "fontSizes"
+    },
+    "16": {
+      "value": "16",
+      "type": "fontSizes"
+    },
+    "20": {
+      "value": "20",
+      "type": "fontSizes"
+    },
+    "22": {
+      "value": "22",
+      "type": "fontSizes"
+    },
+    "24": {
+      "value": "24",
+      "type": "fontSizes"
+    },
+    "32": {
+      "value": "32",
+      "type": "fontSizes"
+    },
+    "36": {
+      "value": "36",
+      "type": "fontSizes"
+    },
+    "45": {
+      "value": "45",
+      "type": "fontSizes"
+    },
+    "57": {
+      "value": "57",
+      "type": "fontSizes"
+    }
   },
   "Palatine Blue": {
     "value": "#191CB1",
@@ -140,7 +142,7 @@
           "studio.tokens": {
             "modify": {
               "type": "mix",
-              "value": "{Linear.200} ",
+              "value": "{Linear.200}",
               "space": "lch",
               "color": "{Black}"
             }
@@ -1667,6 +1669,50 @@
     "48": {
       "value": "48",
       "type": "borderRadius"
+    },
+    "Round": {
+      "value": "1024",
+      "type": "borderRadius"
+    }
+  },
+  "spacing": {
+    "4": {
+      "value": "4",
+      "type": "spacing"
+    },
+    "8": {
+      "value": "8",
+      "type": "spacing"
+    },
+    "12": {
+      "value": "12",
+      "type": "spacing"
+    },
+    "16": {
+      "value": "16",
+      "type": "spacing"
+    },
+    "32": {
+      "value": "32",
+      "type": "spacing"
+    }
+  },
+  "sizing": {
+    "16": {
+      "value": "16",
+      "type": "sizing"
+    },
+    "24": {
+      "value": "24",
+      "type": "sizing"
+    },
+    "32": {
+      "value": "32",
+      "type": "sizing"
+    },
+    "48": {
+      "value": "48",
+      "type": "sizing"
     }
   }
 }

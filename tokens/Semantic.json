@@ -1,4 +1,24 @@
 {
+  "4": {
+    "value": "{Semantics.4}",
+    "type": "spacing"
+  },
+  "8": {
+    "value": "{Semantics.8}",
+    "type": "spacing"
+  },
+  "12": {
+    "value": "{Semantics.12}",
+    "type": "spacing"
+  },
+  "16": {
+    "value": "{Semantics.16}",
+    "type": "spacing"
+  },
+  "32": {
+    "value": "{Semantics.32}",
+    "type": "spacing"
+  },
   "BG": {
     "Default": {
       "Initial": {
@@ -126,11 +146,11 @@
     "type": "fontFamilies"
   },
   "XXS": {
-    "value": "{Semantics.XXS}",
+    "value": "{borderRadius.2}",
     "type": "borderRadius"
   },
   "XS": {
-    "value": "{Semantics.XS}",
+    "value": "{borderRadius.4}",
     "type": "borderRadius"
   },
   "S": {
@@ -152,5 +172,25 @@
   "XXL": {
     "value": "{Semantics.XXL}",
     "type": "borderRadius"
+  },
+  "Round": {
+    "value": "{Semantics.Round}",
+    "type": "borderRadius"
+  },
+  "Small": {
+    "value": "{sizing.16}",
+    "type": "sizing"
+  },
+  "Medium": {
+    "value": "{sizing.24}",
+    "type": "sizing"
+  },
+  "Large": {
+    "value": "{sizing.32}",
+    "type": "sizing"
+  },
+  "XLarge": {
+    "value": "{sizing.48}",
+    "type": "sizing"
   }
 }

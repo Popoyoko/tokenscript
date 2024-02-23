@@ -82,5 +82,22 @@
       "Semantic": "enabled"
     },
     "group": "Brand"
+  },
+  {
+    "id": "ebf6e5d49beeeae3876dcd41d69e9a2377b3e378",
+    "name": "Component",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "Tools": "source",
+      "Branding/Popoyoko": "source",
+      "Branding/Practolib": "source",
+      "Branding/BrandNameTest": "source",
+      "Semantics/Popoyoko": "source",
+      "Semantics/Practolib": "source",
+      "Semantics/BrandNameTest": "source",
+      "Semantic": "source",
+      "Component": "enabled"
+    },
+    "group": "Components"
   }
 ]
