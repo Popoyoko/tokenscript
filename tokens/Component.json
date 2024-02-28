@@ -7,7 +7,7 @@
           "horizontalPadding": "{spacing.16}",
           "verticalPadding": "{spacing.8}",
           "itemSpacing": "{spacing.8}",
-          "fill": "{Semantics.BG.Default.Initial}"
+          "fill": "{Semantics.background.button.Base}"
         },
         "type": "composition"
       }

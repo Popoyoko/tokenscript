@@ -20,9 +20,9 @@
       "value": "{spacing.32}",
       "type": "spacing"
     },
-    "BG": {
-      "Default": {
-        "Initial": {
+    "background": {
+      "button": {
+        "Base": {
           "value": "{Primary.Flat.500}",
           "type": "color"
         },
@@ -38,11 +38,21 @@
           "value": "{Primary.Flat.800}",
           "type": "color"
         }
+      },
+      "page": {
+        "Light": {
+          "value": "{White}",
+          "type": "color"
+        },
+        "Dark": {
+          "value": "{Black}",
+          "type": "color"
+        }
       }
     },
-    "FG": {
-      "Default": {
-        "Initial": {
+    "text": {
+      "button": {
+        "Base": {
           "value": "{Primary.Flat.900}",
           "type": "color"
         },
@@ -250,16 +260,6 @@
     "fontFamily": {
       "value": "{Outfit}",
       "type": "fontFamilies"
-    },
-    "Surface": {
-      "Light": {
-        "value": "{White}",
-        "type": "color"
-      },
-      "Dark": {
-        "value": "{Black}",
-        "type": "color"
-      }
     },
     "XXS": {
       "value": "{borderRadius.2}",

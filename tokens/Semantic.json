@@ -19,34 +19,52 @@
     "value": "{Semantics.32}",
     "type": "spacing"
   },
-  "BG": {
-    "Default": {
-      "Initial": {
-        "value": "{Semantics.BG.Default.Initial}",
+  "background": {
+    "button": {
+      "Base": {
+        "value": "{Semantics.background.button.Base}",
         "type": "color"
       },
       "Hover": {
-        "value": "{Semantics.BG.Default.Hover}",
+        "value": "{Semantics.background.button.Hover}",
         "type": "color"
       },
       "Focus": {
-        "value": "{Semantics.BG.Default.Focus}",
+        "value": "{Semantics.background.button.Focus}",
         "type": "color"
       },
       "Disable": {
-        "value": "{Semantics.BG.Default.Disable}",
+        "value": "{Semantics.background.button.Disable}",
+        "type": "color"
+      }
+    },
+    "page": {
+      "Light": {
+        "value": "{Semantics.background.page.Light}",
+        "type": "color"
+      },
+      "Dark": {
+        "value": "{Semantics.background.page.Dark}",
         "type": "color"
       }
     }
   },
-  "FG": {
-    "Default": {
-      "Initial": {
-        "value": "{Semantics.FG.Default.Initial}",
+  "text": {
+    "button": {
+      "Base": {
+        "value": "{Semantics.text.button.Base}",
         "type": "color"
       },
       "Hover": {
-        "value": "{Semantics.FG.Default.Hover}",
+        "value": "{Semantics.text.button.Hover}",
+        "type": "color"
+      },
+      "Focus": {
+        "value": "{Semantics.text.button.Focus}",
+        "type": "color"
+      },
+      "Disable": {
+        "value": "{Semantics.text.button.Disable}",
         "type": "color"
       }
     }

@@ -3,11 +3,6 @@
     "id": "4f1fa20a4992b95a1e99502a89f855318a4cb256",
     "name": "Popoyoko",
     "$figmaStyleReferences": {
-      "BG.Default.Initial": "S:a1d4c3f88dd54fa682b48e8f69ba875c9e998602,",
-      "BG.Default.Hover": "S:08a61102b0e419b35866bf1705a57989cab4632a,",
-      "FG.Default.Initial": "S:c5e4a76f4c73c4c51c9f6b1a4999bebe08c87717,",
-      "BG.Default.Disable": "S:08a950737b0231d0b11a9c0ae44b4b01b2bf8362,",
-      "FG.Default.Hover": "S:d37c3edf382b4c304fd4657c4f703f55add4714f,",
       "Display.Large": "S:053f5242dd4204fa688cc54d6b5420d8848e9d02,",
       "Display.Medium": "S:a6e7a9987086fb36ba1d7862800931e66e189e0e,",
       "Display.Small": "S:af0182f1f24a80bd0132597107691949cdad9604,",
@@ -27,7 +22,12 @@
       "Subtitle.Default": "S:ccedc2fffd83a4f6c9fe5ab72a36585cb258186b,",
       "Placeholder.Default": "S:9d5fb1c31a1c75c41292c0ed4b97fa870e63b9e2,",
       "Mention.Default": "S:a7e80cc7f2f33d03efffcc6b90d60c09f640ebfa,",
-      "BG.Default.Focus": "S:871600348b78a0b30ed05e8ef0da83781803caef,"
+      "background.button.Hover": "S:08a61102b0e419b35866bf1705a57989cab4632a,",
+      "background.button.Disable": "S:08a950737b0231d0b11a9c0ae44b4b01b2bf8362,",
+      "background.button.Focus": "S:871600348b78a0b30ed05e8ef0da83781803caef,",
+      "background.button.Base": "S:a1d4c3f88dd54fa682b48e8f69ba875c9e998602,",
+      "text.button.Base": "S:c5e4a76f4c73c4c51c9f6b1a4999bebe08c87717,",
+      "text.button.Hover": "S:d37c3edf382b4c304fd4657c4f703f55add4714f,"
     },
     "selectedTokenSets": {
       "Branding/Popoyoko": "source",
@@ -41,7 +41,6 @@
     "id": "30c4658626f7ea3d3f4a9b8de49681a59f017b62",
     "name": "Practolib",
     "$figmaStyleReferences": {
-      "FG.Default.Hover": "S:62eb5fcf17794e2c137ff7414430648f94aec809,",
       "Display.Large": "S:3c681ea2ef92cfb9553248547874e0d1c2cdd8fb,",
       "Display.Medium": "S:2524f1f18e163572b2e8e4b368d6dba789bea250,",
       "Display.Small": "S:c7b9f58cb3bb9e68e0fd3cb0dc5008503ca730ee,",
@@ -61,7 +60,8 @@
       "Subtitle.Default": "S:070ae1497c78631d4a84f46145e36753bbac8f47,",
       "Placeholder.Default": "S:95c73d241bc36f2fa63ff40f9f5cd7203910dd0d,",
       "Mention.Default": "S:e3ca148d2020d1530aceb6c23b1e4ba229d96523,",
-      "BG.Default.Focus": "S:0cb29475139317258abc745a4d67aa71f970eba1,"
+      "background.button.Focus": "S:0cb29475139317258abc745a4d67aa71f970eba1,",
+      "text.button.Hover": "S:62eb5fcf17794e2c137ff7414430648f94aec809,"
     },
     "selectedTokenSets": {
       "Tools": "source",
