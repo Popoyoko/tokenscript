@@ -20,9 +20,9 @@
       "value": "{Popoyoko.spacing.32}",
       "type": "spacing"
     },
-    "BG": {
-      "Default": {
-        "Initial": {
+    "background": {
+      "button": {
+        "Base": {
           "value": "{Popoyoko.Scale.Flat.0}",
           "type": "color"
         },
@@ -40,9 +40,9 @@
         }
       }
     },
-    "FG": {
-      "Default": {
-        "Initial": {
+    "text": {
+      "button": {
+        "Base": {
           "value": "{Popoyoko.Scale.Flat.1000}",
           "type": "color"
         },

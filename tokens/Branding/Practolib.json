@@ -158,9 +158,9 @@
           "studio.tokens": {
             "modify": {
               "type": "mix",
-              "value": "{Semantics.Semantics.Semantics.Linear.borderRadius.fontSemantics.Size.200} ",
+              "value": "{Linear.200} ",
               "space": "lch",
-              "color": "{Semantics.Semantics.Semantics.Lighter}"
+              "color": "{Lighter}"
             }
           }
         }
@@ -172,9 +172,9 @@
           "studio.tokens": {
             "modify": {
               "type": "mix",
-              "value": "{Semantics.Semantics.Semantics.Linear.borderRadius.400} ",
+              "value": "{Linear.400} ",
               "space": "lch",
-              "color": "{Semantics.Semantics.Semantics.Lighter}"
+              "color": "{Lighter}"
             }
           }
         }
@@ -186,9 +186,9 @@
           "studio.tokens": {
             "modify": {
               "type": "mix",
-              "value": "{Semantics.Semantics.Semantics.Linear.600} ",
+              "value": "{Linear.600} ",
               "space": "lch",
-              "color": "{Semantics.Semantics.Semantics.Lighter}"
+              "color": "{Lighter}"
             }
           }
         }
@@ -200,9 +200,9 @@
           "studio.tokens": {
             "modify": {
               "type": "mix",
-              "value": "{Semantics.Semantics.Semantics.Linear.borderRadius.800} ",
+              "value": "{Linear.800} ",
               "space": "lch",
-              "color": "{Semantics.Semantics.Semantics.Lighter}"
+              "color": "{Lighter}"
             }
           }
         }
@@ -214,9 +214,9 @@
           "studio.tokens": {
             "modify": {
               "type": "mix",
-              "value": "{Semantics.Semantics.Semantics.Linear.1000} ",
+              "value": "{Linear.1000} ",
               "space": "lch",
-              "color": "{Semantics.Semantics.Semantics.Lighter}"
+              "color": "{Lighter}"
             }
           }
         }

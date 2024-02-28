@@ -20,9 +20,9 @@
       "value": "{spacing.32}",
       "type": "spacing"
     },
-    "BG": {
-      "Default": {
-        "Initial": {
+    "background": {
+      "button": {
+        "Base": {
           "value": "{Root}",
           "type": "color"
         },
@@ -40,9 +40,9 @@
         }
       }
     },
-    "FG": {
-      "Default": {
-        "Initial": {
+    "text": {
+      "button": {
+        "Base": {
           "value": "{Scale.Flat.1000}",
           "type": "color"
         },

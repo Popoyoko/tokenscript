@@ -155,7 +155,7 @@
                 "type": "mix",
                 "value": "{Linear.800}",
                 "space": "lch",
-                "color": "{Darker}"
+                "color": "{Popoyoko.Darker}"
               }
             }
           }
@@ -169,7 +169,7 @@
                 "type": "mix",
                 "value": "{Linear.600}",
                 "space": "lch",
-                "color": "{Darker}"
+                "color": "{Popoyoko.Darker}"
               }
             }
           }
@@ -183,7 +183,7 @@
                 "type": "mix",
                 "value": "{Linear.400}",
                 "space": "lch",
-                "color": "{Darker}"
+                "color": "{Popoyoko.Darker}"
               }
             }
           }
@@ -197,7 +197,7 @@
                 "type": "mix",
                 "value": "{Linear.200}",
                 "space": "lch",
-                "color": "{Darker}"
+                "color": "{Popoyoko.Darker}"
               }
             }
           }
@@ -215,7 +215,7 @@
                 "type": "mix",
                 "value": "{Linear.200}",
                 "space": "lch",
-                "color": "{Lighter}"
+                "color": "{Popoyoko.Lighter}"
               }
             }
           }
@@ -229,7 +229,7 @@
                 "type": "mix",
                 "value": "{Linear.400}",
                 "space": "lch",
-                "color": "{Lighter}"
+                "color": "{Popoyoko.Lighter}"
               }
             }
           }
@@ -243,7 +243,7 @@
                 "type": "mix",
                 "value": "{Linear.600}",
                 "space": "lch",
-                "color": "{Lighter}"
+                "color": "{Popoyoko.Lighter}"
               }
             }
           }
@@ -257,7 +257,7 @@
                 "type": "mix",
                 "value": "{Linear.800}",
                 "space": "lch",
-                "color": "{Lighter}"
+                "color": "{Popoyoko.Lighter}"
               }
             }
           }
@@ -271,7 +271,7 @@
                 "type": "mix",
                 "value": "{Linear.1000}",
                 "space": "lch",
-                "color": "{Lighter}"
+                "color": "{Popoyoko.Lighter}"
               }
             }
           }
