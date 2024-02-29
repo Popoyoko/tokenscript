@@ -1,10 +1,22 @@
 {
-  "Color": {
-    "Background": {
-      "Button": {
-        "Primary": {
+  "color": {
+    "background": {
+      "button": {
+        "primary": {
           "Initial": {
             "value": "{background.actionHigh.Initial}",
+            "type": "color"
+          },
+          "Hover": {
+            "value": "{background.actionHigh.Hover}",
+            "type": "color"
+          },
+          "Focus": {
+            "value": "{background.actionHigh.Focus}",
+            "type": "color"
+          },
+          "Disable": {
+            "value": "{background.actionHigh.Disable}",
             "type": "color"
           }
         }
