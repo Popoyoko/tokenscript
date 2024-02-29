@@ -21,8 +21,8 @@
   },
   "background": {
     "button": {
-      "Base": {
-        "value": "{Semantics.background.button.Base}",
+      "Initial": {
+        "value": "{Semantics.background.button.Initial}",
         "type": "color"
       },
       "Hover": {
@@ -51,8 +51,8 @@
   },
   "text": {
     "button": {
-      "Base": {
-        "value": "{Semantics.text.button.Base}",
+      "Initial": {
+        "value": "{Semantics.text.button.Initial}",
         "type": "color"
       },
       "Hover": {

@@ -22,7 +22,7 @@
     },
     "background": {
       "button": {
-        "Base": {
+        "Initial": {
           "value": "{Popoyoko.Scale.Flat.0}",
           "type": "color"
         },
@@ -42,7 +42,7 @@
     },
     "text": {
       "button": {
-        "Base": {
+        "Initial": {
           "value": "{Popoyoko.Scale.Flat.1000}",
           "type": "color"
         },

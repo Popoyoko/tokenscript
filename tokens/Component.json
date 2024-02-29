@@ -1,15 +1,13 @@
 {
-  "Button": {
-    "Primary": {
-      "Default": {
-        "value": {
-          "borderRadius": "{Semantics.XXS}",
-          "horizontalPadding": "{spacing.16}",
-          "verticalPadding": "{spacing.8}",
-          "itemSpacing": "{spacing.8}",
-          "fill": "{Semantics.background.button.Base}"
-        },
-        "type": "composition"
+  "Color": {
+    "Background": {
+      "Button": {
+        "Primary": {
+          "Initial": {
+            "value": "{background.button.Initial}",
+            "type": "color"
+          }
+        }
       }
     }
   }
