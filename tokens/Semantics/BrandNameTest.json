@@ -31,11 +31,29 @@
           "type": "color"
         },
         "Focus": {
-          "value": "{BrandNameTest.Primary.Flat.500}",
+          "value": "{BrandNameTest.Primary.Flat.400}",
           "type": "color"
         },
         "Disable": {
-          "value": "{BrandNameTest.Primary.Flat.800}",
+          "value": "{BrandNameTest.Primary.Fade.400}",
+          "type": "color"
+        }
+      },
+      "error": {
+        "Initial": {
+          "value": "{BrandNameTest.Danger.Root}",
+          "type": "color"
+        }
+      },
+      "success": {
+        "Initial": {
+          "value": "{BrandNameTest.Success.Root}",
+          "type": "color"
+        }
+      },
+      "warning": {
+        "Inital": {
+          "value": "{BrandNameTest.Warning.Root}",
           "type": "color"
         }
       },
