@@ -161,7 +161,7 @@
                 "type": "mix",
                 "value": "{Linear.200} ",
                 "space": "lch",
-                "color": "{Practlolib.Practlolib.Lighter}"
+                "color": "{Practlolib.Lighter}"
               }
             }
           }
@@ -175,7 +175,7 @@
                 "type": "mix",
                 "value": "{Linear.400} ",
                 "space": "lch",
-                "color": "{Practlolib.Practlolib.Lighter}"
+                "color": "{Practlolib.Lighter}"
               }
             }
           }
@@ -189,7 +189,7 @@
                 "type": "mix",
                 "value": "{Linear.600} ",
                 "space": "lch",
-                "color": "{Practlolib.Practlolib.Lighter}"
+                "color": "{Practlolib.Lighter}"
               }
             }
           }
@@ -203,7 +203,7 @@
                 "type": "mix",
                 "value": "{Linear.800} ",
                 "space": "lch",
-                "color": "{Practlolib.Practlolib.Lighter}"
+                "color": "{Practlolib.Lighter}"
               }
             }
           }
@@ -217,7 +217,7 @@
                 "type": "mix",
                 "value": "{Linear.1000} ",
                 "space": "lch",
-                "color": "{Practlolib.Practlolib.Lighter}"
+                "color": "{Practlolib.Lighter}"
               }
             }
           }

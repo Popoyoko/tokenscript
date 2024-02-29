@@ -21,7 +21,7 @@
       "type": "spacing"
     },
     "background": {
-      "button": {
+      "actionHigh": {
         "Initial": {
           "value": "{BrandNameTest.Primary.Flat.500}",
           "type": "color"
@@ -51,7 +51,7 @@
       }
     },
     "text": {
-      "button": {
+      "actionHigh": {
         "Initial": {
           "value": "{BrandNameTest.Primary.Flat.900}",
           "type": "color"

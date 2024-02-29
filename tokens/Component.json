@@ -4,7 +4,7 @@
       "Button": {
         "Primary": {
           "Initial": {
-            "value": "{background.button.Initial}",
+            "value": "{background.actionHigh.Initial}",
             "type": "color"
           }
         }

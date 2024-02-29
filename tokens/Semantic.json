@@ -20,21 +20,21 @@
     "type": "spacing"
   },
   "background": {
-    "button": {
+    "actionHigh": {
       "Initial": {
-        "value": "{Semantics.background.button.Initial}",
+        "value": "{Semantics.background.actionHigh.Initial}",
         "type": "color"
       },
       "Hover": {
-        "value": "{Semantics.background.button.Hover}",
+        "value": "{Semantics.background.actionHigh.Hover}",
         "type": "color"
       },
       "Focus": {
-        "value": "{Semantics.background.button.Focus}",
+        "value": "{Semantics.background.actionHigh.Focus}",
         "type": "color"
       },
       "Disable": {
-        "value": "{Semantics.background.button.Disable}",
+        "value": "{Semantics.background.actionHigh.Disable}",
         "type": "color"
       }
     },
@@ -50,21 +50,21 @@
     }
   },
   "text": {
-    "button": {
+    "actionHigh": {
       "Initial": {
-        "value": "{Semantics.text.button.Initial}",
+        "value": "{Semantics.text.actionHigh.Initial}",
         "type": "color"
       },
       "Hover": {
-        "value": "{Semantics.text.button.Hover}",
+        "value": "{Semantics.text.actionHigh.Hover}",
         "type": "color"
       },
       "Focus": {
-        "value": "{Semantics.text.button.Focus}",
+        "value": "{Semantics.text.actionHigh.Focus}",
         "type": "color"
       },
       "Disable": {
-        "value": "{Semantics.text.button.Disable}",
+        "value": "{Semantics.text.actionHigh.Disable}",
         "type": "color"
       }
     }
