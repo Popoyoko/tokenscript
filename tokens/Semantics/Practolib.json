@@ -1,33 +1,63 @@
 {
   "Semantics": {
-    "BG": {
-      "Default": {
+    "4": {
+      "value": "{Practlolib.spacing.4}",
+      "type": "spacing"
+    },
+    "8": {
+      "value": "{Practlolib.spacing.8}",
+      "type": "spacing"
+    },
+    "12": {
+      "value": "{Practlolib.spacing.12}",
+      "type": "spacing"
+    },
+    "16": {
+      "value": "{Practlolib.spacing.16}",
+      "type": "spacing"
+    },
+    "32": {
+      "value": "{Practlolib.spacing.32}",
+      "type": "spacing"
+    },
+    "background": {
+      "actionHigh": {
         "Initial": {
-          "value": "{Root}",
+          "value": "{Practlolib.Root}",
           "type": "color"
         },
         "Hover": {
-          "value": "{Scale.Flat.300}",
+          "value": "{Practlolib.Scale.Flat.300}",
           "type": "color"
         },
         "Focus": {
-          "value": "{Scale.Flat.200}",
+          "value": "{Practlolib.Scale.Flat.200}",
           "type": "color"
         },
         "Disable": {
-          "value": "{Scale.Fade.700}",
+          "value": "{Practlolib.Scale.Fade.700}",
+          "type": "color"
+        }
+      },
+      "page": {
+        "Light": {
+          "value": "{Practlolib.Lighter}",
+          "type": "color"
+        },
+        "Dark": {
+          "value": "{Practlolib.Darker}",
           "type": "color"
         }
       }
     },
-    "FG": {
-      "Default": {
+    "text": {
+      "actionHigh": {
         "Initial": {
-          "value": "{Scale.Flat.1000}",
+          "value": "{Practlolib.Scale.Flat.1000}",
           "type": "color"
         },
         "Hover": {
-          "value": "{Scale.Flat.1000}",
+          "value": "{Practlolib.Scale.Flat.1000}",
           "type": "color"
         }
       }
@@ -36,38 +66,38 @@
       "Large": {
         "value": {
           "fontFamily": "{Semantics.fontFamily}",
-          "fontWeight": "{Regular}",
+          "fontWeight": "{Practlolib.Regular}",
           "lineHeight": "65",
           "letterSpacing": "-0.25 px",
-          "fontSize": "{57}"
+          "fontSize": "{Practlolib.fontSize.57}"
         },
         "type": "typography"
       },
       "Medium": {
         "value": {
           "fontFamily": "{Semantics.fontFamily}",
-          "fontWeight": "{Regular}",
+          "fontWeight": "{Practlolib.Regular}",
           "lineHeight": "52",
           "letterSpacing": "0",
-          "fontSize": "{45}"
+          "fontSize": "{Practlolib.fontSize.45}"
         },
         "type": "typography"
       },
       "Small": {
         "value": {
           "fontFamily": "{Semantics.fontFamily}",
-          "fontWeight": "{Regular}",
+          "fontWeight": "{Practlolib.Regular}",
           "lineHeight": "44",
           "letterSpacing": "0",
-          "fontSize": "{36}"
+          "fontSize": "{Practlolib.fontSize.36}"
         },
         "type": "typography"
       },
       "Default": {
         "value": {
           "fontFamily": "{Semantics.fontFamily}",
-          "fontWeight": "{Bold}",
-          "fontSize": "{32}"
+          "fontWeight": "{Practlolib.Bold}",
+          "fontSize": "{Practlolib.fontSize.32}"
         },
         "type": "typography"
       }
@@ -76,18 +106,18 @@
       "Large": {
         "value": {
           "fontFamily": "{Semantics.fontFamily}",
-          "fontWeight": "{Bold}",
+          "fontWeight": "{Practlolib.Bold}",
           "lineHeight": "28",
-          "fontSize": "{22}"
+          "fontSize": "{Practlolib.fontSize.22}"
         },
         "type": "typography"
       },
       "Medium": {
         "value": {
           "fontFamily": "{Semantics.fontFamily}",
-          "fontWeight": "{Bold}",
+          "fontWeight": "{Practlolib.Bold}",
           "lineHeight": "24",
-          "fontSize": "{16}",
+          "fontSize": "{Practlolib.fontSize.16}",
           "letterSpacing": "0.15 px"
         },
         "type": "typography"
@@ -95,18 +125,18 @@
       "Small": {
         "value": {
           "fontFamily": "{Semantics.fontFamily}",
-          "fontWeight": "{Bold}",
+          "fontWeight": "{Practlolib.Bold}",
           "lineHeight": "20",
           "letterSpacing": "0.1 px",
-          "fontSize": "{14}"
+          "fontSize": "{Practlolib.fontSize.14}"
         },
         "type": "typography"
       },
       "Default": {
         "value": {
           "fontFamily": "{Semantics.fontFamily}",
-          "fontSize": "{16}",
-          "fontWeight": "{Bold}"
+          "fontSize": "{Practlolib.fontSize.16}",
+          "fontWeight": "{Practlolib.Bold}"
         },
         "type": "typography"
       }
@@ -115,9 +145,9 @@
       "Large": {
         "value": {
           "fontFamily": "{Semantics.fontFamily}",
-          "fontWeight": "{Regular}",
+          "fontWeight": "{Practlolib.Regular}",
           "lineHeight": "20",
-          "fontSize": "{14}",
+          "fontSize": "{Practlolib.fontSize.14}",
           "letterSpacing": "0.1 px"
         },
         "type": "typography"
@@ -125,9 +155,9 @@
       "Medium": {
         "value": {
           "fontFamily": "{Semantics.fontFamily}",
-          "fontWeight": "{Regular}",
+          "fontWeight": "{Practlolib.Regular}",
           "lineHeight": "16",
-          "fontSize": "{12}",
+          "fontSize": "{Practlolib.fontSize.12}",
           "letterSpacing": "0.5 px"
         },
         "type": "typography"
@@ -135,16 +165,16 @@
       "Small": {
         "value": {
           "fontFamily": "{Semantics.fontFamily}",
-          "fontWeight": "{Regular}",
-          "fontSize": "{11}"
+          "fontWeight": "{Practlolib.Regular}",
+          "fontSize": "{Practlolib.fontSize.11}"
         },
         "type": "typography"
       },
       "Default": {
         "value": {
           "fontFamily": "{Semantics.fontFamily}",
-          "fontWeight": "{Regular}",
-          "fontSize": "{22}"
+          "fontWeight": "{Practlolib.Regular}",
+          "fontSize": "{Practlolib.fontSize.22}"
         },
         "type": "typography"
       }
@@ -153,9 +183,9 @@
       "Large": {
         "value": {
           "fontFamily": "{Semantics.fontFamily}",
-          "fontWeight": "{Regular}",
+          "fontWeight": "{Practlolib.Regular}",
           "lineHeight": "24",
-          "fontSize": "{16}",
+          "fontSize": "{Practlolib.fontSize.16}",
           "letterSpacing": "0.5 px"
         },
         "type": "typography"
@@ -163,9 +193,9 @@
       "Medium": {
         "value": {
           "fontFamily": "{Semantics.fontFamily}",
-          "fontWeight": "{Regular}",
+          "fontWeight": "{Practlolib.Regular}",
           "lineHeight": "20",
-          "fontSize": "{14}",
+          "fontSize": "{Practlolib.fontSize.14}",
           "letterSpacing": "0.25 px"
         },
         "type": "typography"
@@ -173,18 +203,18 @@
       "Small": {
         "value": {
           "fontFamily": "{Semantics.fontFamily}",
-          "fontWeight": "{Regular}",
+          "fontWeight": "{Practlolib.Regular}",
           "lineHeight": "16",
           "letterSpacing": "0.4 px",
-          "fontSize": "{12}"
+          "fontSize": "{Practlolib.fontSize.12}"
         },
         "type": "typography"
       },
       "Default": {
         "value": {
           "fontFamily": "{Semantics.fontFamily}",
-          "fontWeight": "{Regular}",
-          "fontSize": "{14}"
+          "fontWeight": "{Practlolib.Regular}",
+          "fontSize": "{Practlolib.fontSize.14}"
         },
         "type": "typography"
       }
@@ -193,8 +223,8 @@
       "Default": {
         "value": {
           "fontFamily": "{Semantics.fontFamily}",
-          "fontSize": "{14}",
-          "fontWeight": "{Regular}"
+          "fontSize": "{Practlolib.fontSize.14}",
+          "fontWeight": "{Practlolib.Regular}"
         },
         "type": "typography"
       }
@@ -203,8 +233,8 @@
       "Default": {
         "value": {
           "fontFamily": "{Semantics.fontFamily}",
-          "fontWeight": "{Regular}",
-          "fontSize": "{16}"
+          "fontWeight": "{Practlolib.Regular}",
+          "fontSize": "{Practlolib.fontSize.16}"
         },
         "type": "typography"
       }
@@ -213,43 +243,63 @@
       "Default": {
         "value": {
           "fontFamily": "{Semantics.fontFamily}",
-          "fontWeight": "{Light}",
-          "fontSize": "{12}"
+          "fontWeight": "{Practlolib.Light}",
+          "fontSize": "{Practlolib.fontSize.12}"
         },
         "type": "typography"
       }
     },
     "fontFamily": {
-      "value": "{Roboto}",
+      "value": "{Practlolib.Roboto}",
       "type": "fontFamilies"
     },
     "XXS": {
-      "value": "{borderRadius.2}",
+      "value": "{Practlolib.borderRadius.2}",
       "type": "borderRadius"
     },
     "XS": {
-      "value": "{borderRadius.4}",
+      "value": "{Practlolib.borderRadius.4}",
       "type": "borderRadius"
     },
     "S": {
-      "value": "{borderRadius.8}",
+      "value": "{Practlolib.borderRadius.8}",
       "type": "borderRadius"
     },
     "M": {
-      "value": "{borderRadius.16}",
+      "value": "{Practlolib.borderRadius.16}",
       "type": "borderRadius"
     },
     "L": {
-      "value": "{borderRadius.24}",
+      "value": "{Practlolib.borderRadius.24}",
       "type": "borderRadius"
     },
     "XL": {
-      "value": "{borderRadius.32}",
+      "value": "{Practlolib.borderRadius.32}",
       "type": "borderRadius"
     },
     "XXL": {
-      "value": "{borderRadius.48}",
+      "value": "{Practlolib.borderRadius.48}",
       "type": "borderRadius"
+    },
+    "Round": {
+      "value": "{Practlolib.borderRadius.Round}",
+      "type": "borderRadius"
+    },
+    "Small": {
+      "value": "{Practlolib.sizing.16}",
+      "type": "sizing"
+    },
+    "Medium": {
+      "value": "{Practlolib.sizing.24}",
+      "type": "sizing"
+    },
+    "Large": {
+      "value": "{Practlolib.sizing.32}",
+      "type": "sizing"
+    },
+    "XLarge": {
+      "value": "{Practlolib.sizing.48}",
+      "type": "sizing"
     }
   }
 }

@@ -1,32 +1,70 @@
 {
-  "BG": {
-    "Default": {
+  "4": {
+    "value": "{Semantics.4}",
+    "type": "spacing"
+  },
+  "8": {
+    "value": "{Semantics.8}",
+    "type": "spacing"
+  },
+  "12": {
+    "value": "{Semantics.12}",
+    "type": "spacing"
+  },
+  "16": {
+    "value": "{Semantics.16}",
+    "type": "spacing"
+  },
+  "32": {
+    "value": "{Semantics.32}",
+    "type": "spacing"
+  },
+  "background": {
+    "actionHigh": {
       "Initial": {
-        "value": "{Semantics.BG.Default.Initial}",
+        "value": "{Semantics.background.actionHigh.Initial}",
         "type": "color"
       },
       "Hover": {
-        "value": "{Semantics.BG.Default.Hover}",
+        "value": "{Semantics.background.actionHigh.Hover}",
         "type": "color"
       },
       "Focus": {
-        "value": "{Semantics.BG.Default.Focus}",
+        "value": "{Semantics.background.actionHigh.Focus}",
         "type": "color"
       },
       "Disable": {
-        "value": "{Semantics.BG.Default.Disable}",
+        "value": "{Semantics.background.actionHigh.Disable}",
+        "type": "color"
+      }
+    },
+    "page": {
+      "Light": {
+        "value": "{Semantics.background.page.Light}",
+        "type": "color"
+      },
+      "Dark": {
+        "value": "{Semantics.background.page.Dark}",
         "type": "color"
       }
     }
   },
-  "FG": {
-    "Default": {
+  "text": {
+    "actionHigh": {
       "Initial": {
-        "value": "{Semantics.FG.Default.Initial}",
+        "value": "{Semantics.text.actionHigh.Initial}",
         "type": "color"
       },
       "Hover": {
-        "value": "{Semantics.FG.Default.Hover}",
+        "value": "{Semantics.text.actionHigh.Hover}",
+        "type": "color"
+      },
+      "Focus": {
+        "value": "{Semantics.text.actionHigh.Focus}",
+        "type": "color"
+      },
+      "Disable": {
+        "value": "{Semantics.text.actionHigh.Disable}",
         "type": "color"
       }
     }
@@ -152,5 +190,25 @@
   "XXL": {
     "value": "{Semantics.XXL}",
     "type": "borderRadius"
+  },
+  "Round": {
+    "value": "{Semantics.Round}",
+    "type": "borderRadius"
+  },
+  "Small": {
+    "value": "{Semantics.Small}",
+    "type": "sizing"
+  },
+  "Medium": {
+    "value": "{Semantics.Medium}",
+    "type": "sizing"
+  },
+  "Large": {
+    "value": "{Semantics.Large}",
+    "type": "sizing"
+  },
+  "XLarge": {
+    "value": "{Semantics.XLarge}",
+    "type": "sizing"
   }
 }

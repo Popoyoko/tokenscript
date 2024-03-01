@@ -1,41 +1,89 @@
 {
   "Semantics": {
-    "BG": {
-      "Default": {
+    "4": {
+      "value": "{BrandNameTest.spacing.4}",
+      "type": "spacing"
+    },
+    "8": {
+      "value": "{BrandNameTest.spacing.8}",
+      "type": "spacing"
+    },
+    "12": {
+      "value": "{BrandNameTest.spacing.12}",
+      "type": "spacing"
+    },
+    "16": {
+      "value": "{BrandNameTest.spacing.16}",
+      "type": "spacing"
+    },
+    "32": {
+      "value": "{BrandNameTest.spacing.32}",
+      "type": "spacing"
+    },
+    "background": {
+      "actionHigh": {
         "Initial": {
-          "value": "{Primary.Flat.500}",
+          "value": "{BrandNameTest.Primary.Flat.500}",
           "type": "color"
         },
         "Hover": {
-          "value": "{Primary.Flat.300}",
+          "value": "{BrandNameTest.Primary.Flat.300}",
           "type": "color"
         },
         "Focus": {
-          "value": "{Primary.Flat.500}",
+          "value": "{BrandNameTest.Primary.Flat.400}",
           "type": "color"
         },
         "Disable": {
-          "value": "{Primary.Flat.800}",
+          "value": "{BrandNameTest.Primary.Fade.400}",
+          "type": "color"
+        }
+      },
+      "error": {
+        "Initial": {
+          "value": "{BrandNameTest.Danger.Root}",
+          "type": "color"
+        }
+      },
+      "success": {
+        "Initial": {
+          "value": "{BrandNameTest.Success.Root}",
+          "type": "color"
+        }
+      },
+      "warning": {
+        "Inital": {
+          "value": "{BrandNameTest.Warning.Root}",
+          "type": "color"
+        }
+      },
+      "page": {
+        "Light": {
+          "value": "{BrandNameTest.White}",
+          "type": "color"
+        },
+        "Dark": {
+          "value": "{BrandNameTest.Black}",
           "type": "color"
         }
       }
     },
-    "FG": {
-      "Default": {
+    "text": {
+      "actionHigh": {
         "Initial": {
-          "value": "{Primary.Flat.900}",
+          "value": "{BrandNameTest.Primary.Flat.900}",
           "type": "color"
         },
         "Hover": {
-          "value": "{Primary.Flat.1000}",
+          "value": "{BrandNameTest.Primary.Flat.1000}",
           "type": "color"
         },
         "Focus": {
-          "value": "{Primary.Flat.900}",
+          "value": "{BrandNameTest.Primary.Flat.900}",
           "type": "color"
         },
         "Disable": {
-          "value": "{Primary.Flat.100}",
+          "value": "{BrandNameTest.Primary.Flat.100}",
           "type": "color"
         }
       }
@@ -44,38 +92,38 @@
       "Large": {
         "value": {
           "fontFamily": "{Semantics.fontFamily}",
-          "fontWeight": "{Regular}",
+          "fontWeight": "{BrandNameTest.Regular}",
           "lineHeight": "65",
           "letterSpacing": "-0.25 px",
-          "fontSize": "{57}"
+          "fontSize": "{BrandNameTest.fontSize.57}"
         },
         "type": "typography"
       },
       "Medium": {
         "value": {
           "fontFamily": "{Semantics.fontFamily}",
-          "fontWeight": "{Regular}",
+          "fontWeight": "{BrandNameTest.Regular}",
           "lineHeight": "52",
           "letterSpacing": "0",
-          "fontSize": "{45}"
+          "fontSize": "{BrandNameTest.fontSize.45}"
         },
         "type": "typography"
       },
       "Small": {
         "value": {
           "fontFamily": "{Semantics.fontFamily}",
-          "fontWeight": "{Regular}",
+          "fontWeight": "{BrandNameTest.Regular}",
           "lineHeight": "44",
           "letterSpacing": "0",
-          "fontSize": "{36}"
+          "fontSize": "{BrandNameTest.fontSize.36}"
         },
         "type": "typography"
       },
       "Default": {
         "value": {
           "fontFamily": "{Semantics.fontFamily}",
-          "fontWeight": "{Bold}",
-          "fontSize": "{32}"
+          "fontWeight": "{BrandNameTest.Bold}",
+          "fontSize": "{BrandNameTest.fontSize.32}"
         },
         "type": "typography"
       }
@@ -84,18 +132,18 @@
       "Large": {
         "value": {
           "fontFamily": "{Semantics.fontFamily}",
-          "fontWeight": "{Bold}",
+          "fontWeight": "{BrandNameTest.Bold}",
           "lineHeight": "28",
-          "fontSize": "{22}"
+          "fontSize": "{BrandNameTest.fontSize.22}"
         },
         "type": "typography"
       },
       "Medium": {
         "value": {
           "fontFamily": "{Semantics.fontFamily}",
-          "fontWeight": "{Bold}",
+          "fontWeight": "{BrandNameTest.Bold}",
           "lineHeight": "24",
-          "fontSize": "{16}",
+          "fontSize": "{BrandNameTest.fontSize.16}",
           "letterSpacing": "0.15 px"
         },
         "type": "typography"
@@ -103,18 +151,18 @@
       "Small": {
         "value": {
           "fontFamily": "{Semantics.fontFamily}",
-          "fontWeight": "{Bold}",
+          "fontWeight": "{BrandNameTest.Bold}",
           "lineHeight": "20",
           "letterSpacing": "0.1 px",
-          "fontSize": "{14}"
+          "fontSize": "{BrandNameTest.fontSize.14}"
         },
         "type": "typography"
       },
       "Default": {
         "value": {
           "fontFamily": "{Semantics.fontFamily}",
-          "fontSize": "{16}",
-          "fontWeight": "{Bold}"
+          "fontSize": "{BrandNameTest.fontSize.16}",
+          "fontWeight": "{BrandNameTest.Bold}"
         },
         "type": "typography"
       }
@@ -123,9 +171,9 @@
       "Large": {
         "value": {
           "fontFamily": "{Semantics.fontFamily}",
-          "fontWeight": "{Regular}",
+          "fontWeight": "{BrandNameTest.Regular}",
           "lineHeight": "20",
-          "fontSize": "{14}",
+          "fontSize": "{BrandNameTest.fontSize.14}",
           "letterSpacing": "0.1 px"
         },
         "type": "typography"
@@ -133,9 +181,9 @@
       "Medium": {
         "value": {
           "fontFamily": "{Semantics.fontFamily}",
-          "fontWeight": "{Regular}",
+          "fontWeight": "{BrandNameTest.Regular}",
           "lineHeight": "16",
-          "fontSize": "{12}",
+          "fontSize": "{BrandNameTest.fontSize.12}",
           "letterSpacing": "0.5 px"
         },
         "type": "typography"
@@ -143,16 +191,16 @@
       "Small": {
         "value": {
           "fontFamily": "{Semantics.fontFamily}",
-          "fontWeight": "{Regular}",
-          "fontSize": "{11}"
+          "fontWeight": "{BrandNameTest.Regular}",
+          "fontSize": "{BrandNameTest.fontSize.11}"
         },
         "type": "typography"
       },
       "Default": {
         "value": {
           "fontFamily": "{Semantics.fontFamily}",
-          "fontWeight": "{Regular}",
-          "fontSize": "{22}"
+          "fontWeight": "{BrandNameTest.Regular}",
+          "fontSize": "{BrandNameTest.fontSize.22}"
         },
         "type": "typography"
       }
@@ -161,9 +209,9 @@
       "Large": {
         "value": {
           "fontFamily": "{Semantics.fontFamily}",
-          "fontWeight": "{Regular}",
+          "fontWeight": "{BrandNameTest.Regular}",
           "lineHeight": "24",
-          "fontSize": "{16}",
+          "fontSize": "{BrandNameTest.fontSize.16}",
           "letterSpacing": "0.5 px"
         },
         "type": "typography"
@@ -171,9 +219,9 @@
       "Medium": {
         "value": {
           "fontFamily": "{Semantics.fontFamily}",
-          "fontWeight": "{Regular}",
+          "fontWeight": "{BrandNameTest.Regular}",
           "lineHeight": "20",
-          "fontSize": "{14}",
+          "fontSize": "{BrandNameTest.fontSize.14}",
           "letterSpacing": "0.25 px"
         },
         "type": "typography"
@@ -181,18 +229,18 @@
       "Small": {
         "value": {
           "fontFamily": "{Semantics.fontFamily}",
-          "fontWeight": "{Regular}",
+          "fontWeight": "{BrandNameTest.Regular}",
           "lineHeight": "16",
           "letterSpacing": "0.4 px",
-          "fontSize": "{12}"
+          "fontSize": "{BrandNameTest.fontSize.12}"
         },
         "type": "typography"
       },
       "Default": {
         "value": {
           "fontFamily": "{Semantics.fontFamily}",
-          "fontWeight": "{Regular}",
-          "fontSize": "{14}"
+          "fontWeight": "{BrandNameTest.Regular}",
+          "fontSize": "{BrandNameTest.fontSize.14}"
         },
         "type": "typography"
       }
@@ -201,8 +249,8 @@
       "Default": {
         "value": {
           "fontFamily": "{Semantics.fontFamily}",
-          "fontSize": "{14}",
-          "fontWeight": "{Regular}"
+          "fontSize": "{BrandNameTest.fontSize.14}",
+          "fontWeight": "{BrandNameTest.Regular}"
         },
         "type": "typography"
       }
@@ -211,8 +259,8 @@
       "Default": {
         "value": {
           "fontFamily": "{Semantics.fontFamily}",
-          "fontWeight": "{Regular}",
-          "fontSize": "{16}"
+          "fontWeight": "{BrandNameTest.Regular}",
+          "fontSize": "{BrandNameTest.fontSize.16}"
         },
         "type": "typography"
       }
@@ -221,53 +269,63 @@
       "Default": {
         "value": {
           "fontFamily": "{Semantics.fontFamily}",
-          "fontWeight": "{Light}",
-          "fontSize": "{12}"
+          "fontWeight": "{BrandNameTest.Light}",
+          "fontSize": "{BrandNameTest.fontSize.12}"
         },
         "type": "typography"
       }
     },
     "fontFamily": {
-      "value": "{Outfit}",
+      "value": "{BrandNameTest.Outfit}",
       "type": "fontFamilies"
     },
-    "Surface": {
-      "Light": {
-        "value": "{White}",
-        "type": "color"
-      },
-      "Dark": {
-        "value": "{Black}",
-        "type": "color"
-      }
-    },
     "XXS": {
-      "value": "{borderRadius.2}",
+      "value": "{BrandNameTest.borderRadius.2}",
       "type": "borderRadius"
     },
     "XS": {
-      "value": "{borderRadius.4}",
+      "value": "{BrandNameTest.borderRadius.4}",
       "type": "borderRadius"
     },
     "S": {
-      "value": "{borderRadius.8}",
+      "value": "{BrandNameTest.borderRadius.8}",
       "type": "borderRadius"
     },
     "M": {
-      "value": "{borderRadius.16}",
+      "value": "{BrandNameTest.borderRadius.16}",
       "type": "borderRadius"
     },
     "L": {
-      "value": "{borderRadius.24}",
+      "value": "{BrandNameTest.borderRadius.24}",
       "type": "borderRadius"
     },
     "XL": {
-      "value": "{borderRadius.32}",
+      "value": "{BrandNameTest.borderRadius.32}",
       "type": "borderRadius"
     },
     "XXL": {
-      "value": "{borderRadius.48}",
+      "value": "{BrandNameTest.borderRadius.48}",
       "type": "borderRadius"
+    },
+    "Round": {
+      "value": "{BrandNameTest.borderRadius.Round}",
+      "type": "borderRadius"
+    },
+    "Small": {
+      "value": "{BrandNameTest.sizing.16}",
+      "type": "sizing"
+    },
+    "Medium": {
+      "value": "{BrandNameTest.sizing.24}",
+      "type": "sizing"
+    },
+    "Large": {
+      "value": "{BrandNameTest.sizing.32}",
+      "type": "sizing"
+    },
+    "XLarge": {
+      "value": "{BrandNameTest.sizing.48}",
+      "type": "sizing"
     }
   }
 }
