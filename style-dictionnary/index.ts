@@ -10,7 +10,7 @@ const buildTokens = async () => {
   const brandings = `${basePath}/Branding/**.json`;
   const semantics = `${basePath}/Semantics/Popoyoko.json`;
   const config = {
-    source: ["tokens/Tools.json", brandings],
+    source: ["tokens/Tools.json", brandings, semantics, "tokens/Semantic.json"],
     platforms: {
       js: {
         transformGroup: "js",

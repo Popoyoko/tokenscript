@@ -22,12 +22,12 @@
       "Subtitle.Default": "S:ccedc2fffd83a4f6c9fe5ab72a36585cb258186b,",
       "Placeholder.Default": "S:9d5fb1c31a1c75c41292c0ed4b97fa870e63b9e2,",
       "Mention.Default": "S:a7e80cc7f2f33d03efffcc6b90d60c09f640ebfa,",
-      "background.button.Hover": "S:08a61102b0e419b35866bf1705a57989cab4632a,",
-      "background.button.Disable": "S:08a950737b0231d0b11a9c0ae44b4b01b2bf8362,",
-      "background.button.Focus": "S:871600348b78a0b30ed05e8ef0da83781803caef,",
-      "background.button.Base": "S:a1d4c3f88dd54fa682b48e8f69ba875c9e998602,",
-      "text.button.Base": "S:c5e4a76f4c73c4c51c9f6b1a4999bebe08c87717,",
-      "text.button.Hover": "S:d37c3edf382b4c304fd4657c4f703f55add4714f,"
+      "background.actionHigh.Hover": "S:08a61102b0e419b35866bf1705a57989cab4632a,",
+      "background.actionHigh.Disable": "S:08a950737b0231d0b11a9c0ae44b4b01b2bf8362,",
+      "background.actionHigh.Focus": "S:871600348b78a0b30ed05e8ef0da83781803caef,",
+      "background.actionHigh.Initial": "S:a1d4c3f88dd54fa682b48e8f69ba875c9e998602,",
+      "text.actionHigh.Hover": "S:d37c3edf382b4c304fd4657c4f703f55add4714f,",
+      "text.actionHigh.Initial": "S:c5e4a76f4c73c4c51c9f6b1a4999bebe08c87717,"
     },
     "selectedTokenSets": {
       "Branding/Popoyoko": "source",
@@ -60,8 +60,8 @@
       "Subtitle.Default": "S:070ae1497c78631d4a84f46145e36753bbac8f47,",
       "Placeholder.Default": "S:95c73d241bc36f2fa63ff40f9f5cd7203910dd0d,",
       "Mention.Default": "S:e3ca148d2020d1530aceb6c23b1e4ba229d96523,",
-      "background.button.Focus": "S:0cb29475139317258abc745a4d67aa71f970eba1,",
-      "text.button.Hover": "S:62eb5fcf17794e2c137ff7414430648f94aec809,"
+      "background.actionHigh.Focus": "S:0cb29475139317258abc745a4d67aa71f970eba1,",
+      "text.actionHigh.Hover": "S:62eb5fcf17794e2c137ff7414430648f94aec809,"
     },
     "selectedTokenSets": {
       "Tools": "source",

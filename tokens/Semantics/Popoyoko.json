@@ -21,8 +21,8 @@
       "type": "spacing"
     },
     "background": {
-      "button": {
-        "Base": {
+      "actionHigh": {
+        "Initial": {
           "value": "{Popoyoko.Scale.Flat.0}",
           "type": "color"
         },
@@ -38,11 +38,21 @@
           "value": "{Popoyoko.Scale.Flat.900}",
           "type": "color"
         }
+      },
+      "page": {
+        "Light": {
+          "value": "{Popoyoko.Lighter}",
+          "type": "color"
+        },
+        "Dark": {
+          "value": "{Popoyoko.Lighter}",
+          "type": "color"
+        }
       }
     },
     "text": {
-      "button": {
-        "Base": {
+      "actionHigh": {
+        "Initial": {
           "value": "{Popoyoko.Scale.Flat.1000}",
           "type": "color"
         },
