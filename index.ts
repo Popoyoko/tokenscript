@@ -1,3 +1,3 @@
-import buildTokens from './style-dictionnary'; 
+import buildTokens from "./style-dictonary";
 
 buildTokens();

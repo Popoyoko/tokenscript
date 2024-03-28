@@ -1,6 +1,6 @@
-const tokenPath = "tokens"
+const tokenPath = "tokens";
+import StyleDictionary from "style-dictionary";
 
-const StyleDictionary = require("style-dictionary");
 const {
   registerTransforms,
   transforms,
@@ -36,14 +36,11 @@ async function run() {
       css: {
         transformGroup: "custom/tokens-studio",
         files: [
-          // core/semantic tokens, e.g. for application developer
           {
             destination: "build/css/style.css",
             format: "css/variables",
             filter: coreFilter,
           },
-          // component tokens, e.g. for design system developer
-          // ...generateComponentFiles(["button"], theme.name),
         ],
       },
       js: {
@@ -52,7 +49,6 @@ async function run() {
           {
             destination: "build/js/variables.js",
             format: "javascript/es6",
-            // filter: coreFilter,
           }
         ]
       },
