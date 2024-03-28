@@ -33,7 +33,13 @@
       "Branding/Popoyoko": "source",
       "Semantics/Popoyoko": "source",
       "Semantic": "enabled",
-      "Tools": "source"
+      "Tools": "source",
+      "Semantics/Connect/Core": "disabled",
+      "Semantics/Connect/Light": "disabled",
+      "Semantics/Connect/Dark": "disabled",
+      "Semantics/ConnectPro/Core": "disabled",
+      "Semantics/ConnectPro/Light": "disabled",
+      "Semantics/ConnectPro/Dark": "disabled"
     },
     "group": "Brand"
   },
@@ -67,7 +73,13 @@
       "Tools": "source",
       "Branding/Practolib": "source",
       "Semantics/Practolib": "source",
-      "Semantic": "enabled"
+      "Semantic": "enabled",
+      "Semantics/Connect/Core": "disabled",
+      "Semantics/Connect/Light": "disabled",
+      "Semantics/Connect/Dark": "disabled",
+      "Semantics/ConnectPro/Core": "disabled",
+      "Semantics/ConnectPro/Light": "disabled",
+      "Semantics/ConnectPro/Dark": "disabled"
     },
     "group": "Brand"
   },
@@ -79,7 +91,13 @@
       "Tools": "source",
       "Branding/BrandNameTest": "source",
       "Semantics/BrandNameTest": "source",
-      "Semantic": "enabled"
+      "Semantic": "enabled",
+      "Semantics/Connect/Core": "disabled",
+      "Semantics/Connect/Light": "disabled",
+      "Semantics/Connect/Dark": "disabled",
+      "Semantics/ConnectPro/Core": "disabled",
+      "Semantics/ConnectPro/Light": "disabled",
+      "Semantics/ConnectPro/Dark": "disabled"
     },
     "group": "Brand"
   },
@@ -96,7 +114,13 @@
       "Semantics/Practolib": "source",
       "Semantics/BrandNameTest": "source",
       "Semantic": "source",
-      "Component": "enabled"
+      "Component": "enabled",
+      "Semantics/Connect/Core": "disabled",
+      "Semantics/Connect/Light": "disabled",
+      "Semantics/Connect/Dark": "disabled",
+      "Semantics/ConnectPro/Core": "disabled",
+      "Semantics/ConnectPro/Light": "disabled",
+      "Semantics/ConnectPro/Dark": "disabled"
     },
     "group": "Components"
   }
