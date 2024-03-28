@@ -31,15 +31,10 @@
     },
     "selectedTokenSets": {
       "Branding/Popoyoko": "source",
-      "Semantics/Popoyoko": "source",
       "Semantic": "enabled",
       "Tools": "source",
-      "Semantics/Connect/Core": "disabled",
-      "Semantics/Connect/Light": "disabled",
-      "Semantics/Connect/Dark": "disabled",
-      "Semantics/ConnectPro/Core": "disabled",
-      "Semantics/ConnectPro/Light": "disabled",
-      "Semantics/ConnectPro/Dark": "disabled"
+      "Semantics/Popoyoko/Core": "source",
+      "Semantics/Popoyoko/Light": "source"
     },
     "group": "Brand"
   },
@@ -72,14 +67,11 @@
     "selectedTokenSets": {
       "Tools": "source",
       "Branding/Practolib": "source",
-      "Semantics/Practolib": "source",
       "Semantic": "enabled",
-      "Semantics/Connect/Core": "disabled",
-      "Semantics/Connect/Light": "disabled",
-      "Semantics/Connect/Dark": "disabled",
-      "Semantics/ConnectPro/Core": "disabled",
-      "Semantics/ConnectPro/Light": "disabled",
-      "Semantics/ConnectPro/Dark": "disabled"
+      "Semantics/Practolib/Core": "source",
+      "Semantics/Practolib/Light": "source",
+      "Semantics/Popoyoko/Core": "disabled",
+      "Semantics/Popoyoko/Light": "disabled"
     },
     "group": "Brand"
   },
@@ -90,14 +82,13 @@
     "selectedTokenSets": {
       "Tools": "source",
       "Branding/BrandNameTest": "source",
-      "Semantics/BrandNameTest": "source",
       "Semantic": "enabled",
-      "Semantics/Connect/Core": "disabled",
-      "Semantics/Connect/Light": "disabled",
-      "Semantics/Connect/Dark": "disabled",
-      "Semantics/ConnectPro/Core": "disabled",
-      "Semantics/ConnectPro/Light": "disabled",
-      "Semantics/ConnectPro/Dark": "disabled"
+      "Semantics/BrandNameTest/Core": "source",
+      "Semantics/BrandNameTest/Light": "source",
+      "Semantics/Practolib/Core": "disabled",
+      "Semantics/Practolib/Light": "disabled",
+      "Semantics/Popoyoko/Core": "disabled",
+      "Semantics/Popoyoko/Light": "disabled"
     },
     "group": "Brand"
   },
@@ -110,17 +101,14 @@
       "Branding/Popoyoko": "source",
       "Branding/Practolib": "source",
       "Branding/BrandNameTest": "source",
-      "Semantics/Popoyoko": "source",
-      "Semantics/Practolib": "source",
-      "Semantics/BrandNameTest": "source",
       "Semantic": "source",
       "Component": "enabled",
-      "Semantics/Connect/Core": "disabled",
-      "Semantics/Connect/Light": "disabled",
-      "Semantics/Connect/Dark": "disabled",
-      "Semantics/ConnectPro/Core": "disabled",
-      "Semantics/ConnectPro/Light": "disabled",
-      "Semantics/ConnectPro/Dark": "disabled"
+      "Semantics/BrandNameTest/Core": "source",
+      "Semantics/BrandNameTest/Light": "disabled",
+      "Semantics/Practolib/Core": "source",
+      "Semantics/Practolib/Light": "disabled",
+      "Semantics/Popoyoko/Core": "source",
+      "Semantics/Popoyoko/Light": "disabled"
     },
     "group": "Components"
   }

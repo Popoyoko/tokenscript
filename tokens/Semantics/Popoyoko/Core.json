@@ -1,0 +1,263 @@
+{
+  "Semantics": {
+    "4": {
+      "value": "{Popoyoko.spacing.4}",
+      "type": "spacing"
+    },
+    "8": {
+      "value": "{Popoyoko.spacing.8}",
+      "type": "spacing"
+    },
+    "12": {
+      "value": "{Popoyoko.spacing.12}",
+      "type": "spacing"
+    },
+    "16": {
+      "value": "{Popoyoko.spacing.16}",
+      "type": "spacing"
+    },
+    "32": {
+      "value": "{Popoyoko.spacing.32}",
+      "type": "spacing"
+    },
+    "Display": {
+      "Large": {
+        "value": {
+          "fontFamily": "{Semantics.fontFamily}",
+          "fontWeight": "{Popoyoko.Regular}",
+          "lineHeight": "65",
+          "letterSpacing": "-0.25 px",
+          "fontSize": "{Popoyoko.fontSize.57}"
+        },
+        "type": "typography"
+      },
+      "Medium": {
+        "value": {
+          "fontFamily": "{Semantics.fontFamily}",
+          "fontWeight": "{Popoyoko.Regular}",
+          "lineHeight": "52",
+          "letterSpacing": "0",
+          "fontSize": "{Popoyoko.fontSize.45}"
+        },
+        "type": "typography"
+      },
+      "Small": {
+        "value": {
+          "fontFamily": "{Semantics.fontFamily}",
+          "fontWeight": "{Popoyoko.Regular}",
+          "lineHeight": "44",
+          "letterSpacing": "0",
+          "fontSize": "{Popoyoko.fontSize.36}"
+        },
+        "type": "typography"
+      },
+      "Default": {
+        "value": {
+          "fontFamily": "{Semantics.fontFamily}",
+          "fontWeight": "{Popoyoko.Bold}",
+          "fontSize": "{Popoyoko.fontSize.32}"
+        },
+        "type": "typography"
+      }
+    },
+    "Title": {
+      "Large": {
+        "value": {
+          "fontFamily": "{Semantics.fontFamily}",
+          "fontWeight": "{Popoyoko.Bold}",
+          "lineHeight": "28",
+          "fontSize": "{Popoyoko.fontSize.22}"
+        },
+        "type": "typography"
+      },
+      "Medium": {
+        "value": {
+          "fontFamily": "{Semantics.fontFamily}",
+          "fontWeight": "{Popoyoko.Bold}",
+          "lineHeight": "24",
+          "fontSize": "{Popoyoko.fontSize.16}",
+          "letterSpacing": "0.15 px"
+        },
+        "type": "typography"
+      },
+      "Small": {
+        "value": {
+          "fontFamily": "{Semantics.fontFamily}",
+          "fontWeight": "{Popoyoko.Bold}",
+          "lineHeight": "20",
+          "letterSpacing": "0.1 px",
+          "fontSize": "{Popoyoko.fontSize.14}"
+        },
+        "type": "typography"
+      },
+      "Default": {
+        "value": {
+          "fontFamily": "{Semantics.fontFamily}",
+          "fontSize": "{Popoyoko.fontSize.16}",
+          "fontWeight": "{Popoyoko.Bold}"
+        },
+        "type": "typography"
+      }
+    },
+    "Label": {
+      "Large": {
+        "value": {
+          "fontFamily": "{Semantics.fontFamily}",
+          "fontWeight": "{Popoyoko.Regular}",
+          "lineHeight": "20",
+          "fontSize": "{Popoyoko.fontSize.14}",
+          "letterSpacing": "0.1 px"
+        },
+        "type": "typography"
+      },
+      "Medium": {
+        "value": {
+          "fontFamily": "{Semantics.fontFamily}",
+          "fontWeight": "{Popoyoko.Regular}",
+          "lineHeight": "16",
+          "fontSize": "{Popoyoko.fontSize.12}",
+          "letterSpacing": "0.5 px"
+        },
+        "type": "typography"
+      },
+      "Small": {
+        "value": {
+          "fontFamily": "{Semantics.fontFamily}",
+          "fontWeight": "{Popoyoko.Regular}",
+          "fontSize": "{Popoyoko.fontSize.11}"
+        },
+        "type": "typography"
+      },
+      "Default": {
+        "value": {
+          "fontFamily": "{Semantics.fontFamily}",
+          "fontWeight": "{Popoyoko.Regular}",
+          "fontSize": "{Popoyoko.fontSize.22}"
+        },
+        "type": "typography"
+      }
+    },
+    "Body": {
+      "Large": {
+        "value": {
+          "fontFamily": "{Semantics.fontFamily}",
+          "fontWeight": "{Popoyoko.Regular}",
+          "lineHeight": "24",
+          "fontSize": "{Popoyoko.fontSize.16}",
+          "letterSpacing": "0.5 px"
+        },
+        "type": "typography"
+      },
+      "Medium": {
+        "value": {
+          "fontFamily": "{Semantics.fontFamily}",
+          "fontWeight": "{Popoyoko.Regular}",
+          "lineHeight": "20",
+          "fontSize": "{Popoyoko.fontSize.14}",
+          "letterSpacing": "0.25 px"
+        },
+        "type": "typography"
+      },
+      "Small": {
+        "value": {
+          "fontFamily": "{Semantics.fontFamily}",
+          "fontWeight": "{Popoyoko.Regular}",
+          "lineHeight": "16",
+          "letterSpacing": "0.4 px",
+          "fontSize": "{Popoyoko.fontSize.12}"
+        },
+        "type": "typography"
+      },
+      "Default": {
+        "value": {
+          "fontFamily": "{Semantics.fontFamily}",
+          "fontWeight": "{Popoyoko.Regular}",
+          "fontSize": "{Popoyoko.fontSize.14}"
+        },
+        "type": "typography"
+      }
+    },
+    "Subtitle": {
+      "Default": {
+        "value": {
+          "fontFamily": "{Semantics.fontFamily}",
+          "fontSize": "{Popoyoko.fontSize.14}",
+          "fontWeight": "{Popoyoko.Regular}"
+        },
+        "type": "typography"
+      }
+    },
+    "Placeholder": {
+      "Default": {
+        "value": {
+          "fontFamily": "{Semantics.fontFamily}",
+          "fontWeight": "{Popoyoko.Regular}",
+          "fontSize": "{Popoyoko.fontSize.16}"
+        },
+        "type": "typography"
+      }
+    },
+    "Mention": {
+      "Default": {
+        "value": {
+          "fontFamily": "{Semantics.fontFamily}",
+          "fontWeight": "{Popoyoko.Light}",
+          "fontSize": "{Popoyoko.fontSize.12}"
+        },
+        "type": "typography"
+      }
+    },
+    "fontFamily": {
+      "value": "{Popoyoko.Co Headline}",
+      "type": "fontFamilies"
+    },
+    "XXS": {
+      "value": "{Popoyoko.borderRadius.2}",
+      "type": "borderRadius"
+    },
+    "XS": {
+      "value": "{Popoyoko.borderRadius.4}",
+      "type": "borderRadius"
+    },
+    "S": {
+      "value": "{Popoyoko.borderRadius.8}",
+      "type": "borderRadius"
+    },
+    "M": {
+      "value": "{Popoyoko.borderRadius.16}",
+      "type": "borderRadius"
+    },
+    "L": {
+      "value": "{Popoyoko.borderRadius.24}",
+      "type": "borderRadius"
+    },
+    "XL": {
+      "value": "{Popoyoko.borderRadius.32}",
+      "type": "borderRadius"
+    },
+    "XXL": {
+      "value": "{Popoyoko.borderRadius.48}",
+      "type": "borderRadius"
+    },
+    "Round": {
+      "value": "{Popoyoko.borderRadius.Round}",
+      "type": "borderRadius"
+    },
+    "Small": {
+      "value": "{Popoyoko.sizing.16}",
+      "type": "sizing"
+    },
+    "Medium": {
+      "value": "{Popoyoko.sizing.24}",
+      "type": "sizing"
+    },
+    "Large": {
+      "value": "{Popoyoko.sizing.32}",
+      "type": "sizing"
+    },
+    "XLarge": {
+      "value": "{Popoyoko.sizing.48}",
+      "type": "sizing"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "Semantics": {
+    "background": {
+      "actionHigh": {
+        "Initial": {
+          "value": "{Popoyoko.Scale.Flat.0}",
+          "type": "color"
+        },
+        "Hover": {
+          "value": "{Popoyoko.Scale.Flat.800}",
+          "type": "color"
+        },
+        "Focus": {
+          "value": "{Popoyoko.Root}",
+          "type": "color"
+        },
+        "Disable": {
+          "value": "{Popoyoko.Scale.Flat.900}",
+          "type": "color"
+        }
+      },
+      "page": {
+        "Light": {
+          "value": "{Popoyoko.Lighter}",
+          "type": "color"
+        },
+        "Dark": {
+          "value": "{Popoyoko.Lighter}",
+          "type": "color"
+        }
+      }
+    },
+    "text": {
+      "actionHigh": {
+        "Initial": {
+          "value": "{Popoyoko.Scale.Flat.1000}",
+          "type": "color"
+        },
+        "Hover": {
+          "value": "{Popoyoko.Scale.Flat.100}",
+          "type": "color"
+        }
+      }
+    }
+  }
+}
